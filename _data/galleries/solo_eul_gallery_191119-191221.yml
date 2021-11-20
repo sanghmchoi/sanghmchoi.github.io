@@ -1,0 +1,31 @@
+#https://olivierpieters.be/blog/2016/02/26/creating-a-jekyll-image-gallery
+#picture_path: solo_eul_gallery_191119-191221
+# preview:
+#   filename: 004
+#   original: 004-6720x3780.jpg
+#   #sizes:
+#   # - Lichtfestival-0058-2121x1414.jpg
+#   # - Lichtfestival-0058-2999x1999.jpg
+#   # - Lichtfestival-0058-4242x2828.jpg
+#   thumbnail: 004-6720x3780.jpg
+#   title: 004
+#   caption: N/A
+pictures:
+- filename: 001
+  original: https://i.ibb.co/j83CN0b/001.jpg
+  sizes:
+#  - https://ibb.co/VShqRyP.jpg
+#  - https://ibb.co/yqYwdwW.jpg
+#  - Lichtfestival-0012-2828x4242.jpg
+  thumbnail: https://i.ibb.co/qDmHSq7/001.jpg
+  title: 001
+  caption: Untitled by Choi Sang-Hm
+- filename: 002
+  original: https://i.ibb.co/NFq3KPc/002.jpg
+  sizes:
+  # - Lichtfestival-0012-1414x2121.jpg
+  # - Lichtfestival-0012-1999x2999.jpg
+  # - Lichtfestival-0012-2828x4242.jpg
+  thumbnail: https://i.ibb.co/MgHh74F/002.jpg
+  title: 002
+  caption: Untitled by Choi Sang-Hm
