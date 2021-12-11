@@ -3,21 +3,52 @@
 
 $default-width: 50%;
 
-// * {
-//   -webkit-box-sizing: border-box;
-//      -moz-box-sizing: border-box;
-//           box-sizing: border-box;
-// }
+* {
+  // -webkit-box-sizing: border-box;
+  //    -moz-box-sizing: border-box;
+
+          //padding and border are included in the width and height:
+          box-sizing: border-box;
+}
 
 /* force scrollbar, prevents initial gap */
-// html {
-//   overflow-y: scroll;
-// }
+html {
+  //The overflow-y property specifies whether to clip the content, add a scroll bar, or display overflow content of a block-level element, when it overflows at the top and bottom edges.
+  overflow-y: scroll;
+}
 
-.image-wrapper,
+.image-wrapper {
+  width: $default-width;
+  padding: 3px;
+  //background: #0D8;
+  //height: 100px;
+  // content: '';
+  // display: block;
+  // clear: both;
+}
+
 .gallery-sizer {
   width: $default-width;
 }
+
+// .image-gallery {
+
+//   &:after {
+//     content : '';
+
+//   }
+
+// }
+
+// .image {
+//   width: 100%;
+//   height: 100%;
+// }
+
+// .image-wrapper,
+// .gallery-sizer {
+//   width: $default-width;
+// }
 
 // .image-gallery {
 //   display: block;

@@ -38,30 +38,30 @@ pictures:
   thumbnail: https://i.ibb.co/qYPQQVP/003.jpg
   title: 003
   caption: Untitled by Choi Sang-Hm
-- filename: 004
-  original: https://i.ibb.co/DWBkQgG/004.jpg
-  sizes:
-  # - Lichtfestival-0012-1414x2121.jpg
-  # - Lichtfestival-0012-1999x2999.jpg
-  # - Lichtfestival-0012-2828x4242.jpg
-  thumbnail: https://i.ibb.co/NC0pKn1/004.jpg
-  title: 004
-  caption: Untitled by Choi Sang-Hm
-- filename: 005
-  original: https://i.ibb.co/xhnrJY5/005.jpg
-  sizes:
-  # - Lichtfestival-0012-1414x2121.jpg
-  # - Lichtfestival-0012-1999x2999.jpg
-  # - Lichtfestival-0012-2828x4242.jpg
-  thumbnail: https://i.ibb.co/31xPBvh/005.jpg
-  title: 005
-  caption: Untitled by Choi Sang-Hm
-- filename: 006
-  original: https://i.ibb.co/VgPVZJD/006.jpg
-  sizes:
-  # - Lichtfestival-0012-1414x2121.jpg
-  # - Lichtfestival-0012-1999x2999.jpg
-  # - Lichtfestival-0012-2828x4242.jpg
-  thumbnail: https://i.ibb.co/St9N850/006.jpg
-  title: 006
-  caption: Untitled by Choi Sang-Hm
+# - filename: 004
+#   original: https://i.ibb.co/DWBkQgG/004.jpg
+#   sizes:
+#   # - Lichtfestival-0012-1414x2121.jpg
+#   # - Lichtfestival-0012-1999x2999.jpg
+#   # - Lichtfestival-0012-2828x4242.jpg
+#   thumbnail: https://i.ibb.co/NC0pKn1/004.jpg
+#   title: 004
+#   caption: Untitled by Choi Sang-Hm
+# - filename: 005
+#   original: https://i.ibb.co/xhnrJY5/005.jpg
+#   sizes:
+#   # - Lichtfestival-0012-1414x2121.jpg
+#   # - Lichtfestival-0012-1999x2999.jpg
+#   # - Lichtfestival-0012-2828x4242.jpg
+#   thumbnail: https://i.ibb.co/31xPBvh/005.jpg
+#   title: 005
+#   caption: Untitled by Choi Sang-Hm
+# - filename: 006
+#   original: https://i.ibb.co/VgPVZJD/006.jpg
+#   sizes:
+#   # - Lichtfestival-0012-1414x2121.jpg
+#   # - Lichtfestival-0012-1999x2999.jpg
+#   # - Lichtfestival-0012-2828x4242.jpg
+#   thumbnail: https://i.ibb.co/St9N850/006.jpg
+#   title: 006
+#   caption: Untitled by Choi Sang-Hm
