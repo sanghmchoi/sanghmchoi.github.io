@@ -27,11 +27,6 @@
 
 </div>
 
-<!-- <script type="text/javascript">
-  var $gallery{% if include.id_number %}{{ include.id_number }}{% endif %} = lightGallery(document.getElementById("#image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}"), {});
-
-</script> -->
-
 <script type="text/javascript">
 
   var grid = document.getElementById('image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}');
@@ -68,13 +63,14 @@
 <script type="text/javascript">
 
   var gallery{% if include.id_number %}{{ include.id_number }}{% endif %} = lightGallery(document.getElementById("image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}"), {
+    plugins: [lgHash],
     thumbnail: true,
-    selector: '.image'
+    selector: '.image',
+    //https://www.lightgalleryjs.com/demos/hash/
+    galleryId: {% if include.id_number %}{{ include.id_number }}{% endif %}
   });
-// var $gallery{% if include.id_number %}{{ include.id_number }}{% endif %} = lightGallery(document.getElementById("#image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}"), {
-//   thumbnail: false,
-//   selector: '.image'
-// });
+
+  // gallery{% if include.id_number %}{{ include.id_number }}{% endif %}.click(function() {});
 
 </script>
  
