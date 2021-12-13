@@ -62,12 +62,34 @@
 
 <script type="text/javascript">
 
-  var gallery{% if include.id_number %}{{ include.id_number }}{% endif %} = lightGallery(document.getElementById("image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}"), {
+  elm = document.getElementById("image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}");
+
+  var lg{% if include.id_number %}{{ include.id_number }}{% endif %} = lightGallery(document.getElementById("image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}"), {
     plugins: [lgHash],
     thumbnail: true,
     selector: '.image',
     //https://www.lightgalleryjs.com/demos/hash/
     galleryId: {% if include.id_number %}{{ include.id_number }}{% endif %}
+  });
+
+  // elm.addEventListener('lgBeforeOpen', function(event) {
+  //   console.log('before');
+  //   console.log(window.location.href);
+  // });
+
+  //#1 if sent from the page other than its parent(origin + pathname + search?), we could decide on pressing the back button to either
+  //#1-1 point back to where it came from; should it turn off the browser in mobile?
+  //#1-2 turn off the lightGallery and point back to url with stripped hash
+  elm.addEventListener('lgAfterOpen', function(event) {
+    var baseUrl = window.location.href.split('#')[0];
+    //console.log(baseUrl);
+    history;
+    //https://developer.mozilla.org/en-US/docs/Web/API/History/pushState
+    //Whenever the user navigates to the new state, a popstate event is fired, and the state property of the event contains a copy of the history entry's state object.
+    history.pushState(null, "", baseUrl);
+    //when refreshed w/ lightGallery on, 
+    //'lgAfterOpen' returns URL before lgHash plugin hashes its URL
+    //console.log(window.location.href);
   });
 
   // gallery{% if include.id_number %}{{ include.id_number }}{% endif %}.click(function() {});
