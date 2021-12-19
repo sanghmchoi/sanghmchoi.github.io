@@ -1,0 +1,55 @@
+<!-- https://olivierpieters.be/blog/2016/02/26/creating-a-jekyll-image-gallery -->
+<div id="image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}" class="image-gallery">
+
+  <div id="gallery-sizer{% if include.id_number %}-{{ include.id_number }}{% endif %}" class="gallery-sizer"></div>
+
+  {% for picture in include.gallery.pictures %}
+  <div class="image-wrapper">
+    <!-- https://jekyllrb.com/docs/variables/ -->
+    <a href="{{ site.url }}/{{ include.gallery.swiper_path }}#slide{{ forloop.index }}" class="image"> 
+      <img alt="{{ picture.title }}" src="{{ picture.thumbnail }}" />
+    </a>
+
+  </div>
+  {% endfor %}
+
+</div>
+
+<script type="text/javascript">
+
+  var grid = document.getElementById('image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}');
+
+  var grid{% if include.id_number %}{{ include.id_number }}{% endif %} = new Isotope(grid, {
+    //'.' prepends css class
+    itemSelector : '.image-wrapper',
+    percentPosition : true,
+    masonry: {
+      columnWidth : document.getElementById('gallery-sizer{% if include.id_number %}-{{ include.id_number }}{% endif %}')
+      //should either be a Selector String or Element object
+      //columnWidth : 'gallery-sizer{% if include.id_number %}-{{ include.id_number }}{% endif %}'
+    }
+  });
+
+  function isotopelayoutWrapper()
+  {
+    grid{% if include.id_number %}{{ include.id_number }}{% endif %}.layout();
+    console.log('loaded and layout refreshed');
+  }
+
+  //in case document gets resized real-time (PC)
+  window.addEventListener('resize', isotopelayoutWrapper);
+
+  var imgWrappers = grid.querySelectorAll('.image-wrapper');
+  imgWrappers.forEach(function(imgwrapper){
+    var img = imgwrapper.querySelector('img');
+    //img.addEventListener('resize', isotopelayoutWrapper);
+    if(img.complete)
+      isotopelayoutWrapper();
+    else
+      img.addEventListener('load', isotopelayoutWrapper, { once: true });
+  })
+
+</script>
+
+
+

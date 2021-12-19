@@ -8,7 +8,7 @@ exhibition_start: 2019-11-19 00:00:00 +0900
 exhibition_end: 2019-12-21 00:00:00 +0900
 categories: jekyll update
 ---
-{% include gallery-layout.html gallery=site.data.galleries.solo_eul_gallery_191119-191221 id_number=1 %}
+{% include post_layout.html gallery=site.data.galleries.solo_eul_gallery_191119-191221 id_number=1 %}
 
 최상흠의 ‘명가명비상명(名可名非常名)’
 
