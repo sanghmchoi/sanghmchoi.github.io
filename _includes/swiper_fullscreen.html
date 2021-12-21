@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<!-- <!DOCTYPE html>
-<html lang="en">
+<!-- <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>Swiper demo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/> -->
+    <meta charset="utf-8"/>
+    <title>Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+  </head> -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/{{ "css/swiper_fullscreen.css" }}" />
-  <!-- </head> -->
+    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/{{ "css/swiper_fullscreen.css" }}"/>
+
 
 <!-- Slider main container -->
 <div class="swiper">
@@ -30,9 +30,27 @@
   
     <!-- If we need scrollbar -->
     <!-- <div class="swiper-scrollbar"></div> -->
+
   </div>
 
+<div class="swiper2">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    {% for picture in include.gallery.pictures %}
+    <div class="swiper-slide" data-hash="slide{{ forloop.index }}">
+      <img alt="{{ picture.title }}" src="{{ picture.thumbnail }}" />
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
 <script type="text/javascript">
+
+    const swiper2 = new Swiper('.swiper2', {
+      loop: true,
+      slidesPerView: 4
+    });
 
     const swiper = new Swiper('.swiper', {
     // Optional parameters
@@ -56,6 +74,9 @@
         prevEl: '.swiper-button-prev',
     },
 
+    thumbs: {
+      swiper: swiper2
+    }
     // And if we need scrollbar
     // scrollbar: {
     //   el: '.swiper-scrollbar',
@@ -63,3 +84,4 @@
     });
 
 </script>
+<!-- </html> -->
