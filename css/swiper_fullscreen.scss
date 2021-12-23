@@ -18,21 +18,44 @@ body {
   padding: 0px;
 }
 
+//main swiper
 .swiper {
   //Swiper take 100% of the height of viewport:
   height: 80%;
 }
 
+//thumbnail swiper
 .swiper2 {
   width: 100%;
   height: 20%;
+  //border-box; inclusive padding & margin, ...
+  box-sizing: border-box;
+  //relative to the width of the containing or parent block
+  //padding: <top,bottom> <left,right>
+  padding: 1% 0;
+  // padding-top: 1%;
+  // padding-bottom: 1%;
 }
 
+.swiper2 .swiper-slide {
+  //width gets overriden by 'element.style' which is (somewhat procedurally) generated during the initialization for swiper via JS; 'slidesPerView' attribute 
+  width: 25%;
+  height: 100%;
+  //inactive slides' opacity are set to 0.4
+  opacity: 0.4;
+}
+
+.swiper2 .swiper-slide-thumb-active {
+  opacity: 1.0;
+}
+
+//global swiper-slide (for both .swiper & .swiper2)
 .swiper-slide img {
   //display: block;
   //fit to height
   width: 100%;
   height: 100%;
+  //The replaced content(img) is scaled to maintain its aspect ratio while fitting within the element’s content box. The entire object is made to fill the box, while preserving its aspect ratio, so the object will be "letterboxed" if its aspect ratio does not match the aspect ratio of the box.
   object-fit: contain;
 }
 

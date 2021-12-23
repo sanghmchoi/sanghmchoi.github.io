@@ -48,14 +48,28 @@
 <script type="text/javascript">
 
     const swiper2 = new Swiper('.swiper2', {
+      /*
+        Because of nature of how the loop mode works, it will add duplicated slides. 
+        Such duplicated slides will have additional classes:
+        swiper-slide-duplicate - represents duplicated slide
+        swiper-slide-duplicate-active - represents slide duplicated to the currently active slide
+        swiper-slide-duplicate-next - represents slide duplicated to the slide next to active
+        swiper-slide-duplicate-prev - represents slide duplicated to the slide previous to active
+      */
       loop: true,
-      slidesPerView: 4
+      slidesPerView: {{ include.gallery.pictures.size }},
+      //'auto',
+      //If you use slidesPerView: 'auto' or slidesPerView > 1, then you should also enable watchSlidesProgress and Swiper will load images in currently visible slides
+      watchSlidesProgress: true,
+      //If you use slidesPerView:'auto' with loop mode you should tell to Swiper how many slides it should loop (duplicate) using this parameter
+      loopedSlides: {{ include.gallery.pictures.size }}
     });
 
     const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
+    slidesPerView: 1,
     centeredSlides: true,
     hashNavigation: 
     {
