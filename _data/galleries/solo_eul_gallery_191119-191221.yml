@@ -13,7 +13,7 @@
 swiper_path: galleries/2019-11-19-solo_eul_gallery.html
 pictures:
 - filename: 001
-  original: https://i.ibb.co/j83CN0b/001.jpg
+  original: https://res.cloudinary.com/choisanghm/image/upload/v1640679223/2019%20EUL%20Gallery/001.jpg
   sizes:
 #  - https://ibb.co/VShqRyP.jpg
 #  - https://ibb.co/yqYwdwW.jpg
@@ -22,7 +22,7 @@ pictures:
   title: 001
   caption: Untitled by Choi Sang-Hm
 - filename: 002
-  original: https://i.ibb.co/NFq3KPc/002.jpg
+  original: https://res.cloudinary.com/choisanghm/image/upload/v1640680410/2019%20EUL%20Gallery/002_95gimp.jpg
   sizes:
   # - Lichtfestival-0012-1414x2121.jpg
   # - Lichtfestival-0012-1999x2999.jpg
@@ -31,7 +31,7 @@ pictures:
   title: 002
   caption: Untitled by Choi Sang-Hm
 - filename: 003
-  original: https://i.ibb.co/zV0vvD0/003.jpg
+  original: https://res.cloudinary.com/choisanghm/image/upload/v1640681106/2019%20EUL%20Gallery/003_95gimp_xfhei9.jpg
   sizes:
   # - Lichtfestival-0012-1414x2121.jpg
   # - Lichtfestival-0012-1999x2999.jpg
@@ -39,30 +39,93 @@ pictures:
   thumbnail: https://i.ibb.co/qYPQQVP/003.jpg
   title: 003
   caption: Untitled by Choi Sang-Hm
-# - filename: 004
-#   original: https://i.ibb.co/DWBkQgG/004.jpg
-#   sizes:
-#   # - Lichtfestival-0012-1414x2121.jpg
-#   # - Lichtfestival-0012-1999x2999.jpg
-#   # - Lichtfestival-0012-2828x4242.jpg
-#   thumbnail: https://i.ibb.co/NC0pKn1/004.jpg
-#   title: 004
-#   caption: Untitled by Choi Sang-Hm
-# - filename: 005
-#   original: https://i.ibb.co/xhnrJY5/005.jpg
-#   sizes:
-#   # - Lichtfestival-0012-1414x2121.jpg
-#   # - Lichtfestival-0012-1999x2999.jpg
-#   # - Lichtfestival-0012-2828x4242.jpg
-#   thumbnail: https://i.ibb.co/31xPBvh/005.jpg
-#   title: 005
-#   caption: Untitled by Choi Sang-Hm
-# - filename: 006
-#   original: https://i.ibb.co/VgPVZJD/006.jpg
-#   sizes:
-#   # - Lichtfestival-0012-1414x2121.jpg
-#   # - Lichtfestival-0012-1999x2999.jpg
-#   # - Lichtfestival-0012-2828x4242.jpg
-#   thumbnail: https://i.ibb.co/St9N850/006.jpg
-#   title: 006
-#   caption: Untitled by Choi Sang-Hm
+- filename: 004
+  original: https://res.cloudinary.com/choisanghm/image/upload/v1640680484/2019%20EUL%20Gallery/004.jpg
+  sizes:
+  # - Lichtfestival-0012-1414x2121.jpg
+  # - Lichtfestival-0012-1999x2999.jpg
+  # - Lichtfestival-0012-2828x4242.jpg
+  thumbnail: https://i.ibb.co/qYPQQVP/003.jpg
+  title: 004
+  caption: Untitled by Choi Sang-Hm
+- filename: 005
+  original: https://res.cloudinary.com/choisanghm/image/upload/v1640680487/2019%20EUL%20Gallery/005.jpg
+  sizes:
+  # - Lichtfestival-0012-1414x2121.jpg
+  # - Lichtfestival-0012-1999x2999.jpg
+  # - Lichtfestival-0012-2828x4242.jpg
+  thumbnail: https://i.ibb.co/qYPQQVP/003.jpg
+  title: 005
+  caption: Untitled by Choi Sang-Hm
+- filename: 006
+  original: https://res.cloudinary.com/choisanghm/image/upload/v1640680486/2019%20EUL%20Gallery/006.jpg
+  sizes:
+  # - Lichtfestival-0012-1414x2121.jpg
+  # - Lichtfestival-0012-1999x2999.jpg
+  # - Lichtfestival-0012-2828x4242.jpg
+  thumbnail: https://i.ibb.co/qYPQQVP/003.jpg
+  title: 006
+  caption: Untitled by Choi Sang-Hm
+- filename: 007
+  original: https://res.cloudinary.com/choisanghm/image/upload/v1640680490/2019%20EUL%20Gallery/007.jpg
+  sizes:
+  # - Lichtfestival-0012-1414x2121.jpg
+  # - Lichtfestival-0012-1999x2999.jpg
+  # - Lichtfestival-0012-2828x4242.jpg
+  thumbnail: https://i.ibb.co/qYPQQVP/003.jpg
+  title: 007
+  caption: Untitled by Choi Sang-Hm
+- filename: 009
+  original: https://res.cloudinary.com/choisanghm/image/upload/v1640680497/2019%20EUL%20Gallery/009.jpg
+  sizes:
+  # - Lichtfestival-0012-1414x2121.jpg
+  # - Lichtfestival-0012-1999x2999.jpg
+  # - Lichtfestival-0012-2828x4242.jpg
+  thumbnail: https://i.ibb.co/qYPQQVP/003.jpg
+  title: 009
+  caption: Untitled by Choi Sang-Hm
+- filename: 010
+  original: https://res.cloudinary.com/choisanghm/image/upload/v1640680487/2019%20EUL%20Gallery/010.jpg
+  sizes:
+  # - Lichtfestival-0012-1414x2121.jpg
+  # - Lichtfestival-0012-1999x2999.jpg
+  # - Lichtfestival-0012-2828x4242.jpg
+  thumbnail: https://i.ibb.co/qYPQQVP/003.jpg
+  title: 010
+  caption: Untitled by Choi Sang-Hm
+- filename: 011
+  original: https://res.cloudinary.com/choisanghm/image/upload/v1640680494/2019%20EUL%20Gallery/011.jpg
+  sizes:
+  # - Lichtfestival-0012-1414x2121.jpg
+  # - Lichtfestival-0012-1999x2999.jpg
+  # - Lichtfestival-0012-2828x4242.jpg
+  thumbnail: https://i.ibb.co/qYPQQVP/003.jpg
+  title: 011
+  caption: Untitled by Choi Sang-Hm
+- filename: 012
+  original: https://res.cloudinary.com/choisanghm/image/upload/v1640680495/2019%20EUL%20Gallery/012.jpg
+  sizes:
+  # - Lichtfestival-0012-1414x2121.jpg
+  # - Lichtfestival-0012-1999x2999.jpg
+  # - Lichtfestival-0012-2828x4242.jpg
+  thumbnail: https://i.ibb.co/qYPQQVP/003.jpg
+  title: 012
+  caption: Untitled by Choi Sang-Hm
+- filename: 013
+  original: https://res.cloudinary.com/choisanghm/image/upload/v1640680493/2019%20EUL%20Gallery/013.jpg
+  sizes:
+  # - Lichtfestival-0012-1414x2121.jpg
+  # - Lichtfestival-0012-1999x2999.jpg
+  # - Lichtfestival-0012-2828x4242.jpg
+  thumbnail: https://i.ibb.co/qYPQQVP/003.jpg
+  title: 013
+  caption: Untitled by Choi Sang-Hm
+- filename: 014
+  original: https://res.cloudinary.com/choisanghm/image/upload/v1640680495/2019%20EUL%20Gallery/014.jpg
+  sizes:
+  # - Lichtfestival-0012-1414x2121.jpg
+  # - Lichtfestival-0012-1999x2999.jpg
+  # - Lichtfestival-0012-2828x4242.jpg
+  thumbnail: https://i.ibb.co/qYPQQVP/003.jpg
+  title: 014
+  caption: Untitled by Choi Sang-Hm

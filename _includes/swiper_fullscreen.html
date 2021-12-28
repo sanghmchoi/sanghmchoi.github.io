@@ -56,19 +56,19 @@
         swiper-slide-duplicate-next - represents slide duplicated to the slide next to active
         swiper-slide-duplicate-prev - represents slide duplicated to the slide previous to active
       */
-      loop: true,
-      slidesPerView: {{ include.gallery.pictures.size }},
+      //loop: true,
+      slidesPerView: {{ include.gallery.pictures.size }} > 4 ? 4 : {{ include.gallery.pictures.size }},
       //'auto',
       //If you use slidesPerView: 'auto' or slidesPerView > 1, then you should also enable watchSlidesProgress and Swiper will load images in currently visible slides
       watchSlidesProgress: true,
       //If you use slidesPerView:'auto' with loop mode you should tell to Swiper how many slides it should loop (duplicate) using this parameter
-      loopedSlides: {{ include.gallery.pictures.size }}
+      //loopedSlides: {{ include.gallery.pictures.size }}
     });
 
     const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
-    loop: true,
+    //loop: true,
     slidesPerView: 1,
     centeredSlides: true,
     hashNavigation: 
