@@ -11,7 +11,7 @@
 
 
 <!-- Slider main container -->
-<div class="swiper">
+<div class="swiper main">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
       <!-- Slides -->
@@ -33,7 +33,7 @@
 
   </div>
 
-<div class="swiper2">
+<div class="swiper thumbswiper">
   <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
     <!-- Slides -->
@@ -47,60 +47,62 @@
 
 <script type="text/javascript">
 
-    const swiper2 = new Swiper('.swiper2', {
-      /*
-        Because of nature of how the loop mode works, it will add duplicated slides. 
-        Such duplicated slides will have additional classes:
-        swiper-slide-duplicate - represents duplicated slide
-        swiper-slide-duplicate-active - represents slide duplicated to the currently active slide
-        swiper-slide-duplicate-next - represents slide duplicated to the slide next to active
-        swiper-slide-duplicate-prev - represents slide duplicated to the slide previous to active
-      */
-      //loop: true,
-      slidesPerView: {{ include.gallery.pictures.size }} > 4 ? 4 : {{ include.gallery.pictures.size }},
-      //'auto',
-      //If you use slidesPerView: 'auto' or slidesPerView > 1, then you should also enable watchSlidesProgress and Swiper will load images in currently visible slides
-      //watchSlidesProgress: true,
-      //If you use slidesPerView:'auto' with loop mode you should tell to Swiper how many slides it should loop (duplicate) using this parameter
-      //loopedSlides: {{ include.gallery.pictures.size }}
-
-      //how many px it takes for the drag event to be fired(and possibly override the click event)
-      threshold: 20
-    });
-
-    const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'horizontal',
+  const swiper2 = new Swiper('.thumbswiper', {
+    /*
+      Because of nature of how the loop mode works, it will add duplicated slides. 
+      Such duplicated slides will have additional classes:
+      swiper-slide-duplicate - represents duplicated slide
+      swiper-slide-duplicate-active - represents slide duplicated to the currently active slide
+      swiper-slide-duplicate-next - represents slide duplicated to the slide next to active
+      swiper-slide-duplicate-prev - represents slide duplicated to the slide previous to active
+    */
     //loop: true,
-    slidesPerView: 1,
-    centeredSlides: true,
-    hashNavigation: 
-    {
-      //true,
-      //watchState: true
-      replaceState: true
-    },
-    // If we need pagination
-    // pagination: {
-    //   el: '.swiper-pagination',
-    // },
+    slidesPerView: {{ include.gallery.pictures.size }} > 4 ? 4 : {{ include.gallery.pictures.size }},
+    //'auto',
+    //If you use slidesPerView: 'auto' or slidesPerView > 1, then you should also enable watchSlidesProgress and Swiper will load images in currently visible slides
+    //watchSlidesProgress: true,
+    //If you use slidesPerView:'auto' with loop mode you should tell to Swiper how many slides it should loop (duplicate) using this parameter
+    //loopedSlides: {{ include.gallery.pictures.size }}
 
-    // Navigation arrows
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
+    //how many px it takes for the drag event to be fired(and possibly override the click event)
+    threshold: 20,
+    //freemode: true
+    direction: 'horizontal'
+  });
 
-    thumbs: {
-      swiper: swiper2
-    },
-    // And if we need scrollbar
-    // scrollbar: {
-    //   el: '.swiper-scrollbar',
-    // },
-    //freemode : false
+  const swiper = new Swiper('.main', {
+  // Optional parameters
+  direction: 'horizontal',
+  //loop: true,
+  slidesPerView: 1,
+  centeredSlides: true,
+  hashNavigation: 
+  {
+    //true,
+    //watchState: true
+    replaceState: true
+  },
+  // If we need pagination
+  // pagination: {
+  //   el: '.swiper-pagination',
+  // },
 
-    });
+  // Navigation arrows
+  navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+  },
+
+  thumbs: {
+    swiper: swiper2
+  },
+  // And if we need scrollbar
+  // scrollbar: {
+  //   el: '.swiper-scrollbar',
+  // },
+  //freemode : false
+
+  });
 
 </script>
 <!-- </html> -->
