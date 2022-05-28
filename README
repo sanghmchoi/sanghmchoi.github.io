@@ -1,0 +1,22 @@
+https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
+
+jekyll new --skip-bundle --force .
+
+https://github.com/mmistakes/so-simple-theme
+
+GitHub Pages Method
+GitHub Pages has added full support for any GitHub-hosted theme.
+
+1. Replace gem "jekyll" with:
+  gem "github-pages", group: :jekyll_plugins
+
+2. Run bundle update and verify that all gems install properly.
+
+3. Add remote_theme: "mmistakes/so-simple-theme@3.2.0" to your _config.yml file. Remove any other theme: or remote_theme: entries.
+
+`require': cannot load such file -- webrick (LoadError)
+
+https://github.com/jekyll/jekyll/issues/8523
+
+bundle add webrick
+^ This line adds webrick dependency to Gemfile
