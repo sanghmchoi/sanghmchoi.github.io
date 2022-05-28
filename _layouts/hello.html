@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+    So Simple Jekyll Theme 3.2.0
+    Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE
+-->
+<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
+
+  {% include head.html %}
+
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {% if page.entries_layout == 'grid' %}page--wide{% endif %} {{ page.title | slugify }}">
+
+    <header class="masthead">
+      <div class="wrap">
+
+          <!-- <h1 class="site-title animated fadeIn"><a href="{{ '/posts' | relative_url }}">Sang-hm Choi</a></h1>
+         
+          <p class="site-description animated fadeIn" itemprop="description">Contemporary Artist (1964 - )</p>   -->
+
+          <!-- <a href="{{ '/posts' | relative_url }}" class="site-logo" rel="home" title="{{ site.title }}">
+            <img src="assets/images/image-007.jpg" class="animated fadeInDown" alt="{{ site.title }}" style="width:100%;">
+          </a> -->
+          <!--https://www.w3schools.com/howto/howto_css_fullscreen_video.asp-->
+
+          <video muted loop autoplay src="assets/videos/untitled.mov" style="position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 100%;" type="video/mp4"></video>
+          
+          <h1 style="position: fixed; bottom: 0; background: rgba(0, 0, 0, 0.5); color: #f1f1f1; width: 100%; padding: 20px;">Sang-hm Choi</h1>
+
+
+      </div>
+    </header><!-- /.masthead --> 
+
+  </body>
+
+</html>
