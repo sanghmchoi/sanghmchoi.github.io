@@ -11,8 +11,10 @@ BFA in Keimyung Univ.
 
 ## **Solo Exhibitions**<br>
 
-2021 Space Jamo, Seoul<br>
-2021 Gallery Bundo, Daegu<br>
+2021 ***Who's Afraid of Red, Blue and Black***<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;Space Jamo, Seoul<br>
+2021 ***Industry Painting***<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;Gallery Bundo, Daegu<br>
 2019 EUL Gallery, Daegu<br>
 2018 GOODSPACE Gallery, Daegu<br>
 2018 TOMA Gallery, Daegu<br>

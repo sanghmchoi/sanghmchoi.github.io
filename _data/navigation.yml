@@ -1,7 +1,7 @@
 # Sample site navigation bar links
 
-- title: Archives
-  url: /archives
+- title: Archive
+  url: /archive
 - title: About
   url: /about
 # - title: Categories
