@@ -1,0 +1,40 @@
+/*
+  https://stackoverflow.com/questions/11552380/how-to-automatically-crop-and-center-an-image
+
+  https://www.developerdrive.com/how-to-easily-use-google-fonts-with-sass/
+  https://developers.google.com/fonts/docs/getting_started
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Nanum+Myeongjo);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+.hellovideowrapper {
+  position: fixed; 
+  top: 50%; 
+  left: 50%; 
+  min-height: 100%;
+
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+.hellosubtitle {
+  position: fixed; 
+  top: 50%; 
+  left: 50%; 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+
+  h1,
+  p {
+    margin: 0; 
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Montserrat', 'Nanum Myeongjo', sans-serif;
+  }
+}
