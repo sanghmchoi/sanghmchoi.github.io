@@ -26,22 +26,31 @@
             Export frames as images from video
             https://www.youtube.com/watch?v=2Lt1lcyweTw&ab_channel=AsoftClick
           -->
-          <!--https://res.cloudinary.com/choisanghm/video/upload/v1653754371/720p_24fps_oxwoae.mp4-->
 
-          <div class="hellovideowrapper">
-            <a href="{{ '/posts' | relative_url }}">
+          <!--
+            Temporary cdn used for local testing
+            https://res.cloudinary.com/choisanghm/video/upload/v1653754371/720p_24fps_oxwoae.mp4
+            assets/videos/720p_24fps.mp4
+          -->
+
+          <!--
+            playsinline : prevents video from going full screen in mobile devices
+            poster : img to show when video is not loaded
+          -->
+          <div class="hellovideowrapper animated fadeIn">
+            <a href="{{ '/archives' | relative_url }}">
               <video muted loop autoplay playsinline 
               poster="assets/videos/720p_24fps_poster.png"
-              src="assets/videos/720p_24fps.mp4"
+              src="https://res.cloudinary.com/choisanghm/video/upload/v1653754371/720p_24fps_oxwoae.mp4"
               type="video/mp4"></video>
             </a>
           </div>
 
-          <div class="hellosubtitle" onclick="location.href='{{ '/posts' | relative_url }}'" style="cursor: pointer">
-              <h1>Sang-hm Choi</h1>
-              <h1>최상흠</h1>
-              <h1>(1964 - )</h1>
-              <p>Contemporary Artist</p>
+          <div class="hellosubtitle animated fadeIn" onclick="location.href='{{ '/archives' | relative_url }}'" style="cursor: pointer">
+            <h1>Sang-hm Choi</h1>
+            <h1>최상흠</h1>
+            <h1>(1964 - )</h1>
+            <p>Contemporary Artist</p>
           <div>
 
   </body>
