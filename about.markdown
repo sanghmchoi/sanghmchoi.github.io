@@ -12,7 +12,7 @@ BFA in Keimyung Univ.
 ## **Solo Exhibitions**<br>
 
 2021 EUL Gallery, Daegu<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;Space Jamo, Seoul ***<font size="2">Who's Afraid of Red, Blue and Black</font>***<br>
+&ensp;&ensp;&ensp;&ensp;&ensp;Space Jamo, Seoul ***<font size="2">Who's Afraid of Red, Blue and Black?</font>***<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;Gallery Bundo, Daegu ***<font size="2">Industry Painting</font>***<br>
 2019 EUL Gallery, Daegu<br>
 2018 GOODSPACE Gallery, Daegu<br>
@@ -26,7 +26,7 @@ BFA in Keimyung Univ.
 2022 Gallery R, Seoul ***<font size="2">R22</font>***<br>
 2020 Art Space Purl, Daegu ***<font size="2">Salon De Purl Des Refuses</font>***<br>
 2019 Cian Art Museum, Yeongcheon ***<font size="2">Since Then</font>***<br>
-2018 2nd Avenue Gallery, Seoul ***<font size="2">繪事後素 : 2 Men Exhibition</font>***<br>
+2018 2nd Avenue Gallery, Seoul ***<font size="2">繪事後素</font>***<br>
 2017 Daegu Art Factory, Daegu ***<font size="2">The Ecological Manual Based On Daegu Art Scenes</font>***<br>
 2016 Bongsan Cultural Center, Deagu ***<font size="2">From Another Possibility</font>***<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;Gallery SoSo, Paju ***<font size="2">Neti Neti</font>***<br>
