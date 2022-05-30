@@ -3,7 +3,7 @@ layout: post
 title: ""
 categories: solo_exhibition
 ---
-2019.11.19 - 2022.03.20<br>
+2019.11.19 - 2019.12.21<br>
 ***Eul Gallery*** Daegu, Republic of Korea<br>
 
 <!--https://www.dreamincode.net/forums/topic/418188-open-full-size-image-in-new-tab/-->
