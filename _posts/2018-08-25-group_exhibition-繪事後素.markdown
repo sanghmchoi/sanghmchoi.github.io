@@ -3,7 +3,9 @@ layout: post
 title: ""
 categories: group_exhibition
 ---
-***繪事後素*** 2018.08.25 - 2018.09.22<br>
+
+***繪事後素***<br>
+2018.08.25 - 2018.09.22<br>
 ***2nd Avenue Gallery*** Seoul, Republic of Korea<br>
 
 <img srcset="

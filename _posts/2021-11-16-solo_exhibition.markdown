@@ -3,6 +3,7 @@ layout: post
 title: ""
 categories: solo_exhibition
 ---
+
 2021.11.16 - 2021.12.11<br>
 ***Eul Gallery*** Daegu, Republic of Korea<br>
 

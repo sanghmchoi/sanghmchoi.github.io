@@ -3,7 +3,9 @@ layout: post
 title: ""
 categories: solo_exhibition
 ---
-***Who's Afraid of Red, Blue and Black?*** 2021.08.28 - 2021.09.18<br>
+
+***Who's Afraid of Red, Blue and Black?***<br>
+2021.08.28 - 2021.09.18<br>
 ***Space Jamo*** Seoul, Republic of Korea<br>
 
 <img srcset="

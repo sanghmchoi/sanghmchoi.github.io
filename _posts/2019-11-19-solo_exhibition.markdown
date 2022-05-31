@@ -3,6 +3,7 @@ layout: post
 title: ""
 categories: solo_exhibition
 ---
+
 2019.11.19 - 2019.12.21<br>
 ***Eul Gallery*** Daegu, Republic of Korea<br>
 
